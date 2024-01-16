@@ -1,0 +1,89 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Inicio del header */
+
+header {
+    background-image: url(../img/casa-dos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+
+.oscurecerlo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.722);
+    width: 100%;
+    height: 100%;
+}
+
+.logo-img {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.centrar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centrar-h1 {
+    display: flex;
+    align-items: end;
+    height: 20vh;
+
+}
+
+
+/* Inicio del main */
+.titulo-main {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+
+/* Inicio del footer */
+.icono-ig {
+    width: 4rem;
+}
+
+.icono-ig:hover {
+    width: 4.5rem;
+}
+
+@media only screen and (min-width: 500px){
+    .centrar-h1{
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .centrar-h1{
+        justify-content: start;
+    }
+}
